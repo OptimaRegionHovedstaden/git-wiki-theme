@@ -1,0 +1,13 @@
+{% if site.github.is_project_page %}
+<div class="git-wiki-copyrights">
+  <!--  <p>Denne side bliver vedligeholdt af <a href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a></p> -->
+    {% endif %}
+    <p><small>Hosted hos GitHub Pages &mdash; Udviklet af <a href="https://www.rigshospitalet.dk/medtek/Sider/default.aspx">MedTek Huset </a> <img src="https://raw.githubusercontent.com/MedTekHuset/git-wiki-theme/f6e86bca59ca8529b53dfe1c45df8e4e28a4c4ba/hvidHjerte.svg" alt="Logo" style="width:40px;height:40px;"> </p>
+  {% if site.github.is_project_page %}
+   <!-- <p class="view"><a href="{{ site.github.repository_url }}">View the Project on {% if site.github.hostname == "gitlab.com" %} Gitlab {% else %} Github {% endif %} <small>{{ github_name }}</small></a></p>
+       --> 
+</div>
+
+
+{% endif %}
+
